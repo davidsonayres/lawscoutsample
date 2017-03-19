@@ -1,0 +1,142 @@
+/*
+
+LAWSCOUT Is:
+  fresh
+  expert
+  clean
+  professional
+
+  fun
+  easy
+  bright
+  magnetic
+
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5%;
+  padding: 2%;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Slabo 27px', serif;
+  letter-spacing: 1px;
+}
+
+td {
+  /*border: 1px solid black;*/
+}
+
+.item {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  font-size: 1.3em;
+  width: 200px;
+}
+
+table {
+  margin: 4% auto;
+}
+
+li {
+  font-size: 1.1em;
+  line-height: 1.2;
+  margin: 0.35% auto 2%;
+}
+
+#parties {
+  width: 100%;
+  margin: 5% auto 3%;
+  position: relative;
+  height: 400px;
+}
+
+.client_1 {
+  width: 40%;
+  display: block;
+  position: absolute;
+  top: 12%;
+}
+
+.and {
+  width: 8%;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  opacity: 0.2;
+  position: absolute;
+  top: 36.5%;
+  left: 20%;
+}
+
+.client_2 {
+  width: 40%;
+  position: absolute;
+  bottom: 15%;
+  right: 50%;
+}
+
+#overview {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  top: 12%;
+}
+
+td {
+  /*border: 1px solid black;*/
+}
+
+.point {
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+  font-size: 1.08em;
+}
+
+#overview p {
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 0;
+}
+
+#overview table p {
+  font-size: 1.15em;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#sig_1,
+#sig_2 {
+  width: 30%;
+  margin: 5% 7%;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid black;
+}
