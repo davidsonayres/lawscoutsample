@@ -87,11 +87,12 @@ li:hover {
   width: 8%;
   justify-content: center;
   align-items: center;
-  font-size: 4em;
-  opacity: 0.2;
+  font-size: 3.5em;
+  opacity: 0.3;
   position: absolute;
-  top: 36.5%;
+  top: 37.5%;
   left: 20%;
+  color: black;
 }
 
 .client_2 {
